@@ -38,7 +38,11 @@ Pues el OT es la infraestructura que esta en plantas y como regla ***No se debe 
 En resumen, ICS es el término que abarca todos los sistemas de control utilizados en entornos industriales, mientras que SCADA se refiere a un tipo específico de ICS diseñado para la supervisión y control de procesos distribuidos geográficamente. Aque en el curso lo comparan con una LAN y una WAN.
 
 
+## ISA 62443 The Gold Standard for ICS/OT Cyber Security
 
+Este es un estandar del gobierno de Estados Unidos sobre como asegurar OT.
+
+![image](https://github.com/gecr07/OT-cyber/assets/63270579/9ec5486d-b2c5-424d-8ec1-970bfe0d1653)
 
 
 
