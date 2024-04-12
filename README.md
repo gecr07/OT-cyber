@@ -21,6 +21,17 @@ Tenemos varios recusos entre los que destacan:
 Estos se van actualizando año con año con los principales ataques brechas informacion etc.
   
 
+## OT vs IT
+
+En el contexto de la ciberseguridad, "OT" se refiere a "Tecnología Operativa" (Operational Technology) e "ICS" a "Sistemas de Control Industrial" (Industrial Control Systems).
+
+Tecnología Operativa (OT): Se refiere al hardware y software que se utiliza para controlar y monitorear procesos físicos en industrias como la manufactura, la energía, el transporte y las utilities (servicios públicos como agua, electricidad, etc.). Los sistemas OT están diseñados para controlar maquinaria, infraestructura y otros equipos en entornos industriales y suelen estar separados de los sistemas de tecnología de la información (IT) tradicionales. Sin embargo, la convergencia de OT e IT está aumentando, lo que plantea nuevos desafíos de ciberseguridad.
+
+Sistemas de Control Industrial (ICS): Son un subconjunto de la tecnología operativa y se refieren específicamente a los sistemas utilizados para controlar procesos industriales. Incluyen sistemas de control distribuido (DCS), sistemas de control de supervisión y adquisición de datos (SCADA) y otros sistemas de automatización. Estos sistemas son críticos para la operación de infraestructuras esenciales y, por lo tanto, son objetivos potenciales para ataques cibernéticos.
+
+La seguridad en OT y ICS es fundamental debido a la naturaleza crítica de los procesos que controlan. Un ataque cibernético exitoso en estos sistemas puede tener consecuencias devastadoras, incluyendo interrupciones en la producción, daños a equipos costosos y, en casos extremos, riesgos para la seguridad humana y el medio ambiente.
+
+Pues el OT es la infraestructura que esta en plantas y como regla ***No se debe permitir que el OT este directamente conectado al IT***
 
 
 
