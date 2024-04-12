@@ -18,7 +18,7 @@ Tenemos varios recusos entre los que destacan:
 -  Control Loop Dragons
 -  Industrial Security Podcast
 
-Estos se van actualizando año con año con los principales ataques.
+Estos se van actualizando año con año con los principales ataques brechas informacion etc.
   
 
 
