@@ -92,20 +92,26 @@ NOs puede servir para snifear la red y pues entiende muchos protocolos como el u
 
 Cada uno de estos protocolos tiene su propio conjunto de especificaciones y usos, pero todos interactúan con TCP/IP de una manera u otra para facilitar la comunicación a través de redes más grandes y más complejas, tanto dentro de la propia planta como a través de sitios remotos.
 
-1. Modbus
+### Modbus
+
 Modbus es uno de los protocolos de comunicación más antiguos y ampliamente utilizados en sistemas industriales. Puede operar sobre TCP/IP utilizando Modbus TCP o sobre una conexión serie como Modbus RTU o Modbus ASCII. Cuando se usa Modbus TCP, el protocolo utiliza TCP (Protocolo de Control de Transmisión) para garantizar la entrega confiable de comandos entre dispositivos de automatización.
 
-2. S7comm (Siemens S7 Communication)
+
+### S7comm (Siemens S7 Communication)
+
 S7comm es un protocolo propietario desarrollado por Siemens para la comunicación con sus sistemas de control lógico programable (PLC). Utiliza TCP/IP para la comunicación en redes Ethernet y es específicamente para la comunicación entre PLCs de Siemens y otras aplicaciones que necesitan leer/escribir datos desde y hacia los PLCs.
 
-3. OPC (OLE for Process Control)
+### OPC (OLE for Process Control)
+
 OPC es un conjunto de estándares de comunicación diseñados para permitir la interacción entre diferentes sistemas de automatización industrial. Originalmente dependía de la tecnología OLE/COM de Microsoft, lo que significa que estaba más ligado a los sistemas Windows y no utilizaba directamente TCP/IP.
 
-4. OPC UA (OPC Unified Architecture)
+### OPC UA (OPC Unified Architecture)
+
 OPC UA es la evolución de OPC y está diseñado para ser independiente de la plataforma, interoperable y seguro. Utiliza TCP/IP para la transmisión de datos y también soporta otros métodos como AMQP y MQTT, que son protocolos más modernos diseñados para sistemas de mensajería y IoT. OPC UA está estructurado para utilizar el modelo de cliente-servidor y puede funcionar sobre HTTPS, agregando una capa adicional de seguridad.
 
-5. Wireless Industrial Control Protocols
+## Wireless Industrial Control Protocols
 Los protocolos de control industrial inalámbricos pueden variar ampliamente, pero muchos de ellos, como WirelessHART o ISA100.11a, se basan en estándares que utilizan TCP/IP o adaptaciones de este para permitir la comunicación inalámbrica entre dispositivos. Estos protocolos están diseñados para soportar la fiabilidad y la seguridad necesarias en entornos industriales hostiles y suelen operar en capas superiores a las de la comunicación de red básica, proporcionando mecanismos para la gestión eficiente del espectro y la energía.
+
 
 
 
