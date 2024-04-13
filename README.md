@@ -35,7 +35,7 @@ Pues el OT es la infraestructura que esta en plantas y como regla ***No se debe 
 
 ## ICS vs SCADA
 
-En resumen, ICS es el término que abarca todos los sistemas de control utilizados en entornos industriales, mientras que SCADA se refiere a un tipo específico de ICS diseñado para la supervisión y control de procesos distribuidos geográficamente. Aque en el curso lo comparan con una LAN y una WAN.
+En resumen, ICS es el término que abarca todos los sistemas de control utilizados en entornos industriales, mientras que SCADA se refiere a un tipo específico de ICS diseñado para la supervisión y control de procesos distribuidos geográficamente. Aque en el curso lo comparan con una LAN(ISS) y una WAN(SCADA).
 
 
 ## ISA 62443 The Gold Standard for ICS/OT Cyber Security
@@ -52,7 +52,27 @@ Estso dispositivos son sensores, actuadores, motores.
 
 - PLC
 
-Tienen su propio procesador, memoria y almacenamiento son programados usando software espacial y pueden trabajar en entornos rudos.
+Tienen su propio procesador, memoria y almacenamiento son programados usando software espacial y pueden trabajar en entornos rudos. ( Los atacantes es comun atacan este tipo de dispositivos comunmente). Aqui dice viene con dos modos tiene un interruptor fisico Program Mode y Run Mode ( y algunos modelos pueden traer mas). Program mode para hacer updates en el codigo. Run mode pues solo read only y para hacer solo su funcion. ( se puede hacer el update remoto o local). *** Se tienen que poner en modo RUN MODE para estar seguros***. 
+
+- Distributed Control System (DCS)
+
+Provee monitoreo y control de multiples sisttema estamos hablando de algo muy grande 35 000 algo asi. Allows for availability and control over multiple systems. Se asemeja al Active Directory en Windows.
+Los DCS están diseñados para ser funcionales en instalaciones a gran escala, proporcionando control centralizado y funcionamiento continuo. Se utilizan comúnmente en industrias como la petroquímica, la farmacéutica, la energía, y otras operaciones de procesamiento y fabricación
+
+- Supervisory Control and Data Acquisition (SCADA)
+
+Provee monitorieo y control sobre sistemas remotos. Se utilizan para automatizar tareas en vez de mandar a trabajadores. Tuberías y distribución y transmisión de energía.
+
+- Human Managment Interface (HMI)
+
+Provides a graphical interface to allow human users to interact with a control system such as a PLC. Usan muchos de estos dispositivos Windows. ***ALGO QUE HAY QUE PROTEGER*** . Lo convierte en un objetivo principal a través de IP.
+
+- Safety Instrumented System (SIS) ***SUPER IMPORTANTE***
+
+Acts as a failsafe for an ICS/OT facility. Designed explicity to protect human life and the facility. Allow the site to be shutdown safely in the event an unsabe, or potenttially unsafe, condition is alerted on. Safety functions are designed as safety instrumented functions(SIF). Designed separately from the rest of the networks. El malware Triton en 2017 tenia la capacidad de desactivar estos sistemas lo que podria causar un incidente. Se puede decir que ese malwate tenia de target vidas humanas.
+
+
+
 
 
 
