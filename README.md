@@ -44,6 +44,13 @@ Este es un estandar del gobierno de Estados Unidos sobre como asegurar OT.
 
 ![image](https://github.com/gecr07/OT-cyber/assets/63270579/9ec5486d-b2c5-424d-8ec1-970bfe0d1653)
 
+## Control System Types
+
+- Field Devices
+
+Estso dispositivos son sensores, actuadores, motores.
+
+- PLC
 
 
 
