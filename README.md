@@ -83,6 +83,10 @@ Tipicamente es una base de datos tradicional corriengo un sistema operativo como
 
 Existem as tipo de sistemas de control aunqueno tam apliamente usados como los anteriores pero por ejemplo uno muy famosos son los "RTU" remote terminal units.
 
+## Wireshark
+
+NOs puede servir para snifear la red y pues entiende muchos protocolos como el usando en la industria ModBus. Igual otros como S7 dmp3 backnet.
+
 
 
 
