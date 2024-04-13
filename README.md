@@ -52,7 +52,7 @@ Estso dispositivos son sensores, actuadores, motores.
 
 - PLC
 
-
+Tienen su propio procesador, memoria y almacenamiento son programados usando software espacial y pueden trabajar en entornos rudos.
 
 
 
