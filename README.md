@@ -69,9 +69,19 @@ Provides a graphical interface to allow human users to interact with a control s
 
 ### Safety Instrumented System (SIS) ***SUPER IMPORTANTE***
 
-Acts as a failsafe for an ICS/OT facility. Designed explicity to protect human life and the facility. Allow the site to be shutdown safely in the event an unsabe, or potenttially unsafe, condition is alerted on. Safety functions are designed as safety instrumented functions(SIF). Designed separately from the rest of the networks. El malware Triton en 2017 tenia la capacidad de desactivar estos sistemas lo que podria causar un incidente. Se puede decir que ese malwate tenia de target vidas humanas. Por ejemplo puede probocar una explocion. ( se recomienda ponerlo en un segmento aparte de todo)
+Acts as a failsafe for an ICS/OT facility. Designed explicity to protect human life and the facility. Allow the site to be shutdown safely in the event an unsabe, or potenttially unsafe, condition is alerted on. Safety functions are designed as safety instrumented functions(SIF). Designed separately from the rest of the networks. El malware Triton en 2017 tenia la capacidad de desactivar estos sistemas lo que podria causar un incidente. Se puede decir que ese malwate tenia de target vidas humanas. Por ejemplo puede probocar una explocion. ( se recomienda ponerlo en un segmento aparte de todo) Para que un atacante si quiere tomar el control de esto tenga que estar en el sitio.
 
+### Engineering Workstation (EWS)
 
+SOn computadoras normales donde los ingenieros programan PLCs.Se tienen que tener contol de estos assets y de la informacion que ahi esta.
+
+### Data Historian EASY TO ATTACK TARGET
+
+Tipicamente es una base de datos tradicional corriengo un sistema operativo como Windows Server con un MS SQL Server. Se usa para procesar y guardar datos. Mucho de los entornos tienen multiples data historias para asegurar la aquitectura entre ICS/OT y IT networks. Los atacantes van intentar esto casi siempre. Se sacan estadistiicas de la red OT para la red IT.
+
+## Other COntrol System Types
+
+Existem as tipo de sistemas de control aunqueno tam apliamente usados como los anteriores pero por ejemplo uno muy famosos son los "RTU" remote terminal units.
 
 
 
