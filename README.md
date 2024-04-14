@@ -111,7 +111,7 @@ Entonces toma en cuenta que es un protocolo cliente servidor. Por ejemplo puedes
 
 ### S7comm (Siemens S7 Communication)
 
-S7comm es un protocolo propietario desarrollado por Siemens para la comunicación con sus sistemas de control lógico programable (PLC). Utiliza TCP/IP para la comunicación en redes Ethernet y es específicamente para la comunicación entre PLCs de Siemens y otras aplicaciones que necesitan leer/escribir datos desde y hacia los PLCs.
+S7comm es un protocolo propietario desarrollado por Siemens para la comunicación con sus sistemas de control lógico programable (PLC). Utiliza TCP para la comunicación en redes Ethernet y es específicamente para la comunicación entre PLCs de Siemens y otras aplicaciones que necesitan leer/escribir datos desde y hacia los PLCs. 102 TCP
 
 ### OPC (OLE for Process Control)
 
@@ -124,12 +124,39 @@ OPC UA es la evolución de OPC y está diseñado para ser independiente de la pl
 ## Wireless Industrial Control Protocols
 Los protocolos de control industrial inalámbricos pueden variar ampliamente, pero muchos de ellos, como WirelessHART o ISA100.11a, se basan en estándares que utilizan TCP/IP o adaptaciones de este para permitir la comunicación inalámbrica entre dispositivos. Estos protocolos están diseñados para soportar la fiabilidad y la seguridad necesarias en entornos industriales hostiles y suelen operar en capas superiores a las de la comunicación de red básica, proporcionando mecanismos para la gestión eficiente del espectro y la energía.
 
+- 802.11 WiFi
+- ZigBee
+- WirlessHaRT
 
+Entre muchos otros.
+
+# Secure Network Architecture
+
+The Purdue Model the standard for building an ICS network architecture in a way that supports OT security, separating the layers of the network to maintain a hierarchical flow of data between them. 
+
+![image](https://github.com/gecr07/OT-cyber/assets/63270579/64b98b2f-d498-4ce9-84a0-368aa3d575de)
+
+Utiliza firewalls entre la red OT y IT. Se deben de configurar to block ALL. Allow solo el trafico que se requiere e incluso existen OT-specific firewall.
+
+### Tipos de Firewalls
+
+- Packet filter: Filtra paquetes en base a las five tuples: Source IP, Destination IP, Source Port, Destination Port, Protocol 
+
+- Stateful Inspect: Packet filtering and tracks the state of each connection
+
+- Deep Packet Inspection: Can perform packet filtering an stateful inspection. Excamine data within the packet to identify the application transmitting data and look for malicious activity.
+
+Ejemplo de regla que permite que pase por el FW todo el trafico de cualquier fuente a un hosta 10.10.50.152 por el puerto 80.
+
+```
+permit tcp any host 10.10.50.152 eq 80
+```
 
 
 # Recursos
 
 > https://github.com/ITI/ICS-Security-Tools
+> https://github.com/Fortiphyd/GRFICSv2
 
 
 
