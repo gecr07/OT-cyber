@@ -85,7 +85,7 @@ Existem as tipo de sistemas de control aunqueno tam apliamente usados como los a
 
 ## Wireshark
 
-NOs puede servir para snifear la red y pues entiende muchos protocolos como el usando en la industria ModBus. Igual otros como S7 dmp3 backnet.
+NOs puede servir para snifear la red y pues entiende muchos protocolos como el usando en la industria ModBus. Igual otros como S7 dmp3 backnet. Tenemos el filtro de modbus. 
 
 
 ## Protocolos que se usan comunmente
@@ -106,7 +106,7 @@ Others
 
 ![image](https://github.com/gecr07/OT-cyber/assets/63270579/11f169c6-927a-4c96-bc0d-b214c365d434)
 
-Entonces toma en cuenta que es un protocolo cliente servidor. Por ejemplo puedes hacer un request para preguntar si todos los PLC estan en modo read only.
+Entonces toma en cuenta que es un protocolo cliente servidor. Por ejemplo puedes hacer un request para preguntar si todos los PLC estan en modo read only. En el contexto del protocolo Modbus, un "coil" se refiere a una variable discreta que representa un bit único que puede ser leído o escrito. 
 
 
 ### S7comm (Siemens S7 Communication)
