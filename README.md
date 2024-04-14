@@ -96,6 +96,18 @@ Cada uno de estos protocolos tiene su propio conjunto de especificaciones y usos
 
 Modbus es uno de los protocolos de comunicación más antiguos y ampliamente utilizados en sistemas industriales. Puede operar sobre TCP/IP utilizando Modbus TCP o sobre una conexión serie como Modbus RTU o Modbus ASCII. Cuando se usa Modbus TCP, el protocolo utiliza TCP (Protocolo de Control de Transmisión) para garantizar la entrega confiable de comandos entre dispositivos de automatización.
 
+Es uno de los mas comunes hoy en dia. Mobus corre ( supongo por defecto) en el puerto 502 TCP/IP. Funciona similar a SNMP permite leer y escribie system variables en cliente servidor configuration. Se pueden testear usando NMAP, Modbus-cli, Scapy, Metasploit, and others...
+
+Modbus Function Codes
+
+![image](https://github.com/gecr07/OT-cyber/assets/63270579/40809e42-3fbb-4507-92eb-6e970219978c)
+
+Others
+
+![image](https://github.com/gecr07/OT-cyber/assets/63270579/11f169c6-927a-4c96-bc0d-b214c365d434)
+
+Entonces toma en cuenta que es un protocolo cliente servidor. Por ejemplo puedes hacer un request para preguntar si todos los PLC estan en modo read only.
+
 
 ### S7comm (Siemens S7 Communication)
 
@@ -115,7 +127,9 @@ Los protocolos de control industrial inalámbricos pueden variar ampliamente, pe
 
 
 
+# Recursos
 
+> https://github.com/ITI/ICS-Security-Tools
 
 
 
