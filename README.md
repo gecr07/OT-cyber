@@ -164,6 +164,20 @@ Are nerwork appliance which user physisc to ensuere that data can only flow in o
 
 Que se este monitoreando cuanod se conecta un nuevo dispositivo a la red. 
 
+
+
+ ## Nmap
+
+ Pues con la opcion -sn realizas peticiones ARP y puedes ver que maquina corresponde que direccion MAC tienes que pedir permiso para hacer todo esto porque puede que se rompa algo. Desde Windows ya sabes arp -a en linux puedes ver haciendo 
+
+ ```
+cat /proc/net/arp
+```
+
+ 
+
+
+
 # Recursos
 
 > https://github.com/ITI/ICS-Security-Tools
