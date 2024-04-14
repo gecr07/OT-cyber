@@ -152,6 +152,17 @@ Ejemplo de regla que permite que pase por el FW todo el trafico de cualquier fue
 permit tcp any host 10.10.50.152 eq 80
 ```
 
+## PORTS
+
+![image](https://github.com/gecr07/OT-cyber/assets/63270579/9219d346-1a35-41fa-ba5e-36cee48b1842)
+
+## Data Diodes (and Unidirectiala Gateway )
+
+Are nerwork appliance which user physisc to ensuere that data can only flow in one direction  Prevents all inbound connections from IT to OT
+
+## Asset Register
+
+Que se este monitoreando cuanod se conecta un nuevo dispositivo a la red. 
 
 # Recursos
 
