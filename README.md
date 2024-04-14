@@ -174,7 +174,8 @@ Que se este monitoreando cuanod se conecta un nuevo dispositivo a la red.
 cat /proc/net/arp
 ```
 
- 
+ ![image](https://github.com/gecr07/OT-cyber/assets/63270579/daf5e12b-8920-4cf7-8ae0-a9d503232492)
+
 
 
 
