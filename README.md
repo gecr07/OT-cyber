@@ -193,9 +193,12 @@ Esto quiere decir sniffear la red con wireshark en busca de host puertos abierto
 # Recursos
 
 > https://github.com/ITI/ICS-Security-Tools
+
 > https://github.com/Fortiphyd/GRFICSv2
+
 > https://github.com/nsacyber/ELITEWOLF
 
+> https://media.defense.gov/2020/Jul/23/2002462846/-1/-1/0/OT_ADVISORY-DUAL-OFFICIAL-20200722.PDF
 
 
 
