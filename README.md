@@ -194,6 +194,7 @@ Esto quiere decir sniffear la red con wireshark en busca de host puertos abierto
 
 > https://github.com/ITI/ICS-Security-Tools
 > https://github.com/Fortiphyd/GRFICSv2
+> https://github.com/nsacyber/ELITEWOLF
 
 
 
