@@ -180,6 +180,13 @@ cat /proc/net/arp
 
 Esto quiere decir sniffear la red con wireshark en busca de host puertos abiertos etc etc.
 
+# OT Penetration testing
+
+## Books to read 
+
+- Hacking exposed
+
+- Pentesting Industrial Control Systems
 
 
 
